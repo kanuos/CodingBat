@@ -2,11 +2,11 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-     WarmUp2 obj = new WarmUp2();
+//     WarmUp2 obj = new WarmUp2();
+        String1 obj = new String1();
 
-        System.out.println(obj.array667(new int[]{6,6,2}));
-        System.out.println(obj.array667(new int[]{6,6,2,6}));
-        System.out.println(obj.array667(new int[]{6,7,2,6}));
-
-    }
+        System.out.println(obj.minCat("Hello","Hi"));
+        System.out.println(obj.minCat("Hello","java"));
+        System.out.println(obj.minCat("java","Hello"));
+     }
 }
