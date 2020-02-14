@@ -232,6 +232,10 @@ public class Array1 {
         return new int[] {b[0]};
     }
 
+    public static void main(String[] args) {
+//        Use this method to call the methods and pass arguments or you can create objects of the Array1 class and
+//        instantiate anywhere inside this package.
+    }
 }
 
 
